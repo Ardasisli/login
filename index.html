@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body{
+            background-color: #6A9AB0;
+        }
+        .container {
+            width: 25%;
+            margin: 20px auto;
+            min-height: 400px;
+            border-radius: 10px;
+            background-color:#D2E0FB;
+            padding: 20px;
+            margin: 100px auto;
+        }
+        table{
+            width: calc(100% - 20px);
+            padding: 20px;
+
+        }
+        input {
+            padding: 5px;
+            margin: 10px;
+            display: block;
+            margin-bottom: 10px; 
+            width: 100%; 
+        }
+        .bos{
+            font-size: 24px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        }
+        .baslik{
+            text-align: center;
+        }
+        .baslik p{
+            color: rgb(90, 87, 87);
+        }
+        .kullanici{
+            top: -60px;
+            position: relative;
+            margin: auto;
+            width: 90px;
+            height: 90px;
+            background-color: white;
+            border-radius: 50%;
+            text-align: center;
+            align-items: center;
+            padding: 5px;
+
+
+        }
+        .kullanici img{
+            width: 70px;
+            height: 70px;
+        }
+        .forget{
+            
+            font-size: 14px;
+            color: gray;
+            padding-left: 10px;
+        }
+        .bnt{
+            padding-top: 10px;
+            width: 100%;
+            padding-left: 15px;
+        }
+        .login{
+            position: relative;
+            top: -30px;
+        }
+       .yazi_accunt{
+        margin-top: 10px;
+        color: gray;
+        padding-left: 15px;
+       }
+       .accunt{
+        padding-left: 10px;
+        color: blue;
+        text-decoration: none;
+
+       }
+       
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="kullanici">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/User-avatar.svg/2048px-User-avatar.svg.png" alt="">
+        </div>
+       
+        <div class="login">
+            <div class="baslik">
+                <h2>Sign in</h2>
+                <p>sing in to mange all your devices</p>
+            </div>
+            <table>
+                <tr>
+                    <td>
+                        <label for="email">email</label>
+                        <input type="email" placeholder="Email" id="email">
+    
+                        <label for="password">password</label>
+                        <input type="password" placeholder="Password" id="password">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="#" class="forget">Forget password</a>
+
+                        <div class="d-grid gap-2 bnt">
+                            <button class="btn btn-primary" type="button">Button</button>
+                        </div>
+                        <p class="yazi_accunt">Do you have an acount?<a href="#" class="accunt">sing up</a> </p>
+                        
+                        
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
